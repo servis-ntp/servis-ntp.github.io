@@ -15,6 +15,31 @@ img {
 }
 
 .paragraf {
-	display: inline;
-	text-indent: 100px;
+	color: #424F6E;
 }
+
+#clip {
+  background-image: url('media/vektori/clip.svg');
+  background-repeat: no-repeat;
+}
+
+#zarulja {
+  background-image: url('media/vektori/zarulja.svg');
+  background-repeat: no-repeat;
+}
+
+.kvacica {
+  list-style-image: url('media/vektori/kvacica.svg');
+  font-size: 60px;
+}
+
+.crtica {
+  list-style-image: url('media/vektori/crtica.svg');
+  font-size: 60px;
+}
+
+li p {
+	font-size: 25px;
+	color: #424F6E;
+}
+
