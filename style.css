@@ -28,6 +28,21 @@ img {
   background-repeat: no-repeat;
 }
 
+#baza {
+  background-image: url('media/vektori/baza.svg');
+  background-repeat: no-repeat;
+}
+
+#git {
+  background-image: url('media/vektori/git.svg');
+  background-repeat: no-repeat;
+}
+
+#oblak {
+  background-image: url('media/vektori/oblak.svg');
+  background-repeat: no-repeat;
+}
+
 .kvacica {
   list-style-image: url('media/vektori/kvacica.svg');
   font-size: 60px;
@@ -41,5 +56,25 @@ img {
 li p {
 	font-size: 25px;
 	color: #424F6E;
+}
+
+a:link { 
+	text-decoration: none;
+	font-weight: bold;
+ }
+
+a:visited { 
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+a:hover { 
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+a:active { 
+	text-decoration: none; 
+	font-weight: bold;
 }
 
