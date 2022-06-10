@@ -43,6 +43,14 @@ img {
   background-repeat: no-repeat;
 }
 
+#strelica {
+  background-image: url('media/vektori/strelica.svg');
+  background-repeat: no-repeat;
+  font-size: 35px;
+  position: fixed;
+  margin: 50px 50px 50px 50px;
+}
+
 .kvacica {
   list-style-image: url('media/vektori/kvacica.svg');
   font-size: 60px;
@@ -50,6 +58,11 @@ img {
 
 .crtica {
   list-style-image: url('media/vektori/crtica.svg');
+  font-size: 60px;
+}
+
+.povecalo {
+  list-style-image: url('media/vektori/povecalo.svg');
   font-size: 60px;
 }
 
