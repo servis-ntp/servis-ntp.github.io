@@ -102,11 +102,14 @@
 						<hr>
 						
 						<p class="w3-large w3-text-theme"><b>Upute za izradu</b></p>
-						<a href="repozitorij/baza.zip" class="w3-center"><h3 class="w3-text-gray w3-padding-16"><span id="baza"> &nbsp &nbsp &nbsp &nbsp </span>Baza</h3></a>
-						
-						<a href="repozitorij/web-git.zip" class="w3-center"><h3 class="w3-text-gray w3-padding-16"><span id="git"> &nbsp &nbsp &nbsp </span>Web stranica - Git</h3></a>
 						
 						<a href="repozitorij/gcp.zip" class="w3-center"><h3 class="w3-text-gray w3-padding-16"><span id="oblak"> &nbsp &nbsp &nbsp &nbsp &nbsp </span>Google Cloud Platform</h3></a>
+						
+						<a href="repozitorij/baza.zip" class="w3-center"><h3 class="w3-text-gray w3-padding-16"><span id="baza"> &nbsp &nbsp &nbsp &nbsp </span>Baza</h3></a>
+						
+						<a href="repozitorij/odbc.zip" class="w3-center"><h3 class="w3-text-gray w3-padding-16"><span id="baza"> &nbsp &nbsp &nbsp &nbsp &nbsp </span>ODBC DRIVER</h3></a>
+						
+						<a href="repozitorij/web-git.zip" class="w3-center"><h3 class="w3-text-gray w3-padding-16"><span id="git"> &nbsp &nbsp &nbsp </span>Web stranica - Git</h3></a>
 						
 						<a href="" class="w3-center"><h3 class="w3-text-gray w3-padding-16"><span id="coming soon"> &nbsp &nbsp &nbsp &nbsp &nbsp </span>More coming soon...</h3></a>
 						
@@ -139,7 +142,7 @@
 						u C++ Builder projekt, kombinirali interpreterske jezike s kompajlerskim kako bi isprobali što više toga te uparili lako 
 						izmjenjive skripte Pythona i sistemsku administraciju PowerShella s većinski zastupljenim C++ jezikom. Domenu i stranicu (template besplatno 
 						preuzet s W3Schools za brži razvoj) smo besplatno dobili u sklopu GitHub projekta, kako bi isprobali potpun ciklus izrade - 
-						uključujući web stranicu s koje se može preuzeti kod, upute kako je projekt izrađen, korisničke upute za samo korištenje 
+						uključujući web stranicu s koje se može preuzeti kod, upute kako je projekt izrađen i korisničke upute za samo korištenje 
 						aplikacije. Također na ovoj stranici želimo prikazati automatizirano prikupljanje i objavljivanje izvješća vezanih za otklon 
 						kvarova.				
 						</p>
@@ -157,15 +160,14 @@
 						- administratorska prava se ne mogu postaviti iz aplikacije nego su već dodijeljena raspoloživim djelatnicima tvrtke direktnim root 
 						pristupom bazi podataka. 
 						</p>
-						<p class="paragraf">&nbsp &nbsp &nbsp &nbsp Korisnik može pregledati već postojeće kvarove s kojima je povezan (kao prijavitelj ili stručna osoba 
+						<p class="paragraf">&nbsp &nbsp &nbsp &nbsp Korisnik može pregledati postojeće kvarove s kojima je povezan (kao prijavitelj ili stručna osoba 
 						zadužena za njegovo otklanjanje) ili prijaviti novi. Novom kvaru određuje prioritet, naslov i opis te nakon prijave vrijeme odaziva počinje teći. 
-						Ako je riječ o kriičnom kvaru, svi administratori dobiju SMS poruku, inače samo mail obavijest o prijavi novog kvara (email obavijest dobivaju 
-						i prilikom svake promjene statusa kvara). Ako ima novih kvarova, administratorima nakon prijave iskače dijalog u kojem ih se o tome obaviještava 
-						te mogu preuzeti rješavanje kvara ili to odbiti (ako procijene da je netko drugi kompetentniji). Kada administrator pristane voditi kvar, u aplikaciji 
+						Ako je riječ o kritičnom kvaru, svi administratori dobiju SMS poruku, inače samo mail obavijest o prijavi novog kvara (email obavijest dobivaju 
+						i prilikom svake promjene statusa kvara). Kada administrator pristane voditi kvar, u aplikaciji 
 						se mijenja status ("Prijavljen"->"Zaprimljen"). Ako administratoru nedostaje informacija može zatražiti nadopunu, a nakon što je riješio problem može 
-						predložiti riješenje. Kvar se zatvara kao "riješen" tek kada korisnik koji ga je otvorio potvrdi da je zadovoljan ishodom. Već otvoreni kvarovi se mogu 
-						filtrirati po aktivnosti (jesu li riješeni ili aktualni) i ustanovi (za admine, klijenti ne mogu odabrati tuđe ustanove) te soritrati prioritetu, 
-						statusu i vremenu otvaranja zahtjeva. Aplikacija ima mogućnost kreiranja PDF/RTF izvještaja o toku riješavanja kvara (svi komentari, promjene statusa 
+						predložiti rješenje. Kvar se zatvara kao "riješen" tek kada korisnik koji ga je otvorio potvrdi da je zadovoljan ishodom. Već otvoreni kvarovi se mogu 
+						filtrirati po aktivnosti (jesu li riješeni ili aktualni) i ustanovi (za admine, klijenti ne mogu odabrati tuđe ustanove) te sortirati po prioritetu, 
+						statusu i vremenu otvaranja zahtjeva. Aplikacija ima mogućnost kreiranja PDF/RTF izvještaja o toku rješavanja kvara (svi komentari, promjene statusa 
 						i njihova vremena).
 						</p>
 					</div>
@@ -185,8 +187,8 @@
 							<li><p>Forme i komunikacija između njih</p></li>
 							<li><p>Lokalizacija na engleski</p></li>
 							<hr>
-							<li><p>INI i Windows registry</p></li>
-							<li><p>XML i JSON</p></li>
+							<li><p>Windows registry</p></li>
+							<li><p>XML</p></li>
 							<hr>
 							<li><p>Baza - spajanje i DML</p></li>
 							<li><p>Baza - sortiranje i filtriranje</p></li>
@@ -198,7 +200,6 @@
 							<li><p>UDP klijent-server</p></li>
 							<li><p>HTTP klijent - download</p></li>
 							<hr>
-							<li><p>SOAP klijent na proizvoljni WS</p></li>
 							<li><p>SOAP klijent na naš SOAP server</p></li>
 							<hr>
 							<li><p>REST klijent na proizvoljni WS</p></li>
@@ -211,7 +212,6 @@
 							<li><p>Digitalni potpis</p></li>
 							<hr>
 							<li><p>Statička biblioteka</p></li>
-							<li><p>Dinamička biblioteka</p></li>
 							<li><p>Resurs u dinamičkoj biblioteci</p></li>
 						
 						</ul>
@@ -226,7 +226,7 @@
 						<ul class="povecalo">
 							
 							<li><p>Paprenje lozinke</p></li>
-							<li><p>Provjera broja netočno unesenih lozinki</p></li>
+							<li><p>Provjera broja netočno unesenih lozinki - TTimer komponenta</p></li>
 							<li><p>Mail</p></li>
 							<li><p>Python skripte u C++</p></li>
 							<li><p>PowerShell skripte u C++</p></li>
